@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	width: 316px;
+	height: 774px;
+	margin: 0 auto;
+	margin-top: 16px;
+	margin-bottom: 25px;
+	background: #e6f3fb;
+}
+
+.content__blogroll--title {
+	margin-left: 12px;
+	padding-top: 6px;
+	color: #000000;
+	font-family: "Times New Roman";
+	font-size: 16px;
+	font-weight: bold;
+}
+.content__blogroll {
+	overflow: auto;
+	width: auto;
+	height: auto;
+	margin-left: 11px;
+	margin-right: 25px;
+	margin-right: 9px;
+	background: #ffffff;
+	border-top: 4px solid #f7a418;
+}
+
+.content__blogroll img {
+	float: left;
+	width: auto;
+	margin-left: 8px;
+	padding-top: 7px;
+}
+
+.content__blogroll--info--title {
+	margin-left: 171px;
+	padding-top: 10px;
+	color: #0a6395;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.content__blogroll--info--text {
+	margin-left: 173px;
+	color: #000000;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.content__blogroll--info--Splat {
+	margin-top: 12px;
+	padding-left: 10px;
+	padding-top: 9px;
+	padding-bottom: 12px;
+	font-size: 12px;
+	border-bottom: white 1px solid;
+	background: #f9f1c2;
+	color: #0a6395;
+	font-family: Arial;
+}
+
+.content__blogroll--info--Ask {
+	font-size: 12px;
+	border-bottom: white 1px solid;
+	background: #f9f1c2;
+	color: #0a6395;
+	padding-left: 10px;
+	padding-top: 13px;
+	padding-bottom: 11px;
+	font-family: Arial;
+}
+
+.content__blogroll--info--Blogocracr {
+	font-size: 12px;
+	border-bottom: white 1px solid;
+	background: #f9f1c2;
+	color: #0a6395;
+	padding-left: 10px;
+	padding-top: 13px;
+	padding-bottom: 15px;
+	font-family: Arial;
+}
+
+.content__horoscopes--title {
+	margin-top:4px;
+	margin-left: 12px;
+	color: #000000;
+	font-family: "Times New Roman";
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.content__horoscopes {
+  overflow: auto;
+  width: auto;
+  height: auto;
+  margin-left: 11px;
+  margin-right: 9px;
+  background: #ffffff;
+  border-top: 4px solid #f7a418;
+}
+
+.content__horoscopes img {
+  float: left;
+  margin-top:20px;
+  margin-left: 14px;
+}
+
+.content__horoscopes--info--title {
+  font-size: 15px;
+  font-family: Arial;
+  color: #000000;
+  margin-left: 108px;
+  margin-top:24px;
+  font-weight: bold;
+}
+
+.content__horoscopes--info--time {
+  font-size: 11px;
+  font-family: Arial;
+  color: #595959;
+  margin-left: 108px;
+}
+
+.content__horoscopes--info--text {
+  font-size: 11px;
+  font-family: Arial;
+  margin-left: 110px;
+  margin-right: 8px;
+  margin-top: 12px;
+  color: #000000;
+}
+
+.content__horoscopes--image {
+  font-size: 11px;
+  margin-top: 18px;
+  font-family: Arial;
+  color: #000000;
+  background: url("image/pic_people.gif");
+  height: 47px;
+}
+
+.content__horoscopes--readall {
+  color: #0a6395;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin-left: 23px;
+  padding-top:13px;
+}
+
+.content__getnews--title {
+  margin-top: 21px;
+  margin-left: 12px;
+  color: #000000;
+  font-family: "Times New Roman";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content__getnews {
+  background: #ffffff;
+  overflow: auto;
+  width: auto;
+  height: auto;
+  margin-left: 11px;
+  margin-right: 9px;
+  background: #ffffff;
+  border-top: 4px solid #f7a418;
+}
+
+.content__getnews  img{
+  float: right;
+}
+
+.content__getnews--info--up {
+  margin-left: 23px;
+  margin-top: 24px;
+  color: #000000;
+  font-family: "Times New Roman";
+  font-size: 12px;
+}
+
+.content__getnews--info--down {
+  margin-left: 23px;
+  margin-top: 11px;
+  color: #0a6395;
+  font-family: "Times New Roman";
+  font-size: 12px;
+}
+
+.content__competions--title {
+  border-top: 1px solid #595959;
+  margin-top: 8px;
+  margin-left: 11px;
+  margin-right: 8px;
+  padding-top: 6px;
+  color: #000000;
+  font-family: "Times New Roman";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content__competions {
+
+}
+
+.content__competions--info {
+  border: 1px solid #595959;
+  padding-left: 8px;
+  padding-top:11px;
+  padding-bottom: 11px;
+  margin-left: 12px;
+  margin-right: 6px;
+  font-size: 12px;
+  font-family: "Times New Roman";
+  color: #4d5d73;
+  background: #ffffff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.arrow {
+  color: #0a6395;
+  text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}

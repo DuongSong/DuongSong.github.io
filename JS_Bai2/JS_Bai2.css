@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#table {
+	border:1px black solid;
+	margin: 0;
+	padding: 0;
+	background: black;
+	text-align: center;
+	visibility: hidden;
+}
+
+#table td {
+	width:50px;
+	height: 25px;
+	background: white;
+}
+
+#table th {
+	width:50px;
+	height: 25px;
+	color: red;
+	background: gainsboro;
+}
+
+.tabledata {
+	border: 5px solid black;
+}
+
+#row1 {
+	line-height: 0.25;
+	text-align: center;
+}
+
+#txtInput {
+	position: relative;
+	height: 30px;
+}
+
+#icn_celendar {
+	position: absolute;
+	margin-left: -35px;
+}

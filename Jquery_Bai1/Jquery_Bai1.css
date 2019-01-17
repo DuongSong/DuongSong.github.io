@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	margin: 0 auto;
+	width: 270px;
+	border: 1px solid goldenrod;
+	line-height: 12px;
+	border-radius: 5px;
+}
+
+.content_hide{
+	display: none;
+}
+
+.btnAbout {
+	margin-left: 70px;
+}
+
+#popup1 {
+	margin-left: -40px;
+	border: 1px solid goldenrod;
+	width: 350px;
+	display: none;
+	position: absolute;
+	background: white;
+	margin-top: 20px;
+}
+
+#popup1 p {
+	padding-top:30px;
+}
+
+#popup2 {
+	margin-left: -40px;
+	border: 1px solid goldenrod;
+	width: 350px;
+	display: none;
+	position: absolute;
+	background: white;
+	margin-top: 20px;
+}
+
+#popup2 p {
+	padding-top:30px;
+}
+
+.btnClose {
+	position: absolute;
+	right: 0;
+}
+
+p {
+	padding-top: 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài thực hành JS 2</title>
+  <link type="text/css" rel="stylesheet" href="JS_Bai2.css"/>
+  <script type="text/javascript" src="JS_Bai2.js"></script>
+  <script language="JavaScript">
+  </script>
+</head>
+<body>
+  <input id="txtInput" type="text"/>
+  <img id="icn_celendar" src="image/icn_calendar.png" alt="Hinh" onclick="clickItem()"/>
+  <table id="table">
+    <tr id="row1">
+      <td onclick="decreaseYear()">&#8592;<br/>&#8592;</td>
+      <td onclick="decreaseMonth()">&#8592;</td>
+      <td colspan="2">
+        <select id="cmbMonth" onchange="chooseAgainMonthYear()">
+          <option value="1">January</option>
+          <option value="2">February</option>
+          <option value="3">March</option>
+          <option value="4">April</option>
+          <option value="5">May</option>
+          <option value="6">June</option>
+          <option value="7">July</option>
+          <option value="8">August</option>
+          <option value="9">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+      </td>
+      <td>
+        <select id="cmbYear" onchange="chooseAgainMonthYear()"></select>
+      </td>
+      <td onclick="increaseMonth()">&#8594;</td>
+      <td onclick="increaseYear()">&#8594;<br/>&#8594;</td>
+    </tr>
+    <tr>
+      <th>Sun</th>
+      <th>Mon</th>
+      <th>Tue</th>
+      <th>Web</th>
+      <th>Thu</th>
+      <th>Fri</th>
+      <th>Sat</th>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,40 @@
+#container {
+	position: relative;
+	background: url("image/tail.jpg");
+	width: 1500px;
+	height: 450px;
+}
+
+#pic_header {
+	margin-top: 57px;
+	margin-left: 250px;
+	position: absolute;
+}
+
+#pic_layer1 {
+	margin-top: 58px;
+	margin-left: 200px;
+	position: absolute;
+}
+
+#background_skyandbird {
+	position: relative;
+}
+
+#pic_layer2 {
+	position: absolute;
+	margin-top: 57px;
+	margin-left: 310px;
+}
+
+#pic_layer3 {
+	position: absolute;
+	margin-top: 56px;
+	margin-left: 285px;
+}
+
+#pic_layer4 {
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 75px;
+}

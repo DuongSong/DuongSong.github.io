@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Times New Roman";
+}
+
+#content {
+	margin: 0 auto;
+	width: 650px;
+	background: white;
+	line-height: 15px;
+}
+
+#table_info {
+	width: 300px;
+}
+
+#table_info td {
+	column-width: 230px;
+}
+
+th {
+	padding: 10px;
+}
+
+#txtUsername {
+	height: 20px;
+	width: 225px;
+	box-shadow: 0.1px 0.1px 1px 1px cyan;
+	border: 1px;
+	border-radius: 1px;
+}
+
+#txtPassword {
+	height: 20px;
+	width: 225px;
+	box-shadow: 0.1px 0.1px 1px 1px cyan;
+	border: 1px;
+	border-radius: 1px;
+}
+
+#txtEmail {
+	height: 20px;
+	width: 225px;
+	box-shadow: 0.1px 0.1px 1px 1px cyan;
+	border: 1px;
+	border-radius: 1px;
+}
+
+#btnSubmit {
+	background: cornflowerblue;
+	color: white;
+	width: 100px;
+	height: 25px;
+	margin-left: 50px;
+	margin-top: 5px;
+	box-shadow: 0.1px 0.1px 1px 1px cyan;
+	border: 1px;
+	border-radius: 3px;
+	margin-right: -8px;
+}
+
+#btnSubmit:hover {
+	background: gray;
+}
+
+#btnRefresh {
+	background: cornflowerblue;
+	color: white;
+	width: 100px;
+	height: 25px;
+	box-shadow: 0.1px 0.1px 1px 1px cyan;
+	border: 1px;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#btnRefresh:hover {
+	background: gray;
+}
+
+#txtInput {
+	height: 30px;
+	width: 225px;
+	box-shadow: 0.1px 0.1px 1px 1px cyan;
+	margin-top: 5px;
+	margin-left: 18px;
+	border: 1px;
+	border-radius: 3px;
+}
+
+#icn_celendar {
+	margin-top: 3px;
+}
+
+
+#notify_username {
+	color: red;
+	font-weight: bold;
+	width: 200px;
+}
+
+#notify_password {
+	color: red;
+	font-weight: bold;
+}
+
+#notify_email {
+	color: red;
+	font-weight: bold;
+}
+
+#birthday {
+	float:left;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-top: 12px;
+}
+
+#notify_birthday {
+	margin-top: -25px;
+	color: red;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 327px;
+}
+
+#table {
+	margin-top: 30px;
+	margin-left: 95px;
+	width: 100px;
+}
+

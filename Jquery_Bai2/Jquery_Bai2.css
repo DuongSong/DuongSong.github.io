@@ -1,0 +1,56 @@
+#content {
+	margin: 0 auto;
+	background: url("images/bg_itm_lineup.jpg");
+	width: 950px;
+	height: 598px;
+	position: relative;
+}
+
+#content_image--info {
+	left: 15%;
+	top: 80px;
+	list-style: none;
+	position: absolute;
+	width: 650px;
+	height: 350px;
+	overflow: hidden;
+}
+
+#ul_up{
+	width: 3500px;
+	position:absolute;
+	margin-left: -45px;
+}
+
+#ul_up li{
+	display: inline-block;
+}
+
+#btnLeft {
+  position: relative;
+	top: 274px;
+}
+
+#btnRight {
+	position: relative;
+	left: 850px;
+	top: 274px
+}
+
+#content_image--item {
+	margin-top: 450px;
+	left: 150px;
+	position: absolute;
+	width: 650px;
+}
+
+#ul_up, #ul_down {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+
+

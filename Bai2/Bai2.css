@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 12px;
+}
+
+.content {
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+  border: groove 2px;
+  background: #121214;
+  padding-left: 150px;
+  padding-right: 150px;
+  overflow: auto;
+}
+
+.content__left {
+  width:440px;
+  float: left;
+  background: #121214;
+  padding-top: 38px;
+}
+.content__left--up--title {
+  color: #ffffff;
+}
+
+.content__left--up--info {
+  margin-top: 40px;
+  overflow: auto;
+}
+
+.content__left--up--info img {
+  float: left;
+}
+
+.content__left--up--info h4 {
+  float: right;
+  width: 280px;
+  color: #ffffff;
+}
+
+.content__left--up--info p {
+  float: right;
+  width: 280px;
+  margin-top: 20px;
+  color: #595959;
+  font-size: 12px;
+  line-height: 10px;
+  height: 115px;
+}
+
+.content__left--down--info--p {
+  margin-left: 11px;
+  border-bottom: white 1px dotted;
+  padding-bottom: 10px;
+}
+
+.content__right {
+  width: 235px;
+  height: 400px;
+  float: right;
+  background: #232227;
+  margin-top: 22px;
+}
+
+.content__right--info {
+  width: 200px;
+  margin-left: 25px;
+  border-top: dotted 1px white;
+  margin-top: 75px;
+}
+
+.content__right--info img {
+  padding-top: 35px;
+}
+
+.content__right--info p {
+  color: #595959;
+  margin-top: 30px;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.more__info--left {
+  color: #ffffff;
+  margin-left: 11px;
+  padding-top: 10px;
+}
+
+.more__info--left:before {
+  content: url("image/pic_icon.png");
+}
+
+.more__info--right {
+  margin-top:35px;
+  color: #ffffff;
+  margin-left: 25px;
+}
+
+.more__info--right:before {
+  content: url("image/pic_icon.png");
+}
+
+.content__left--down {
+  overflow: auto;
+  border-bottom: dotted 1px white;
+  padding-bottom: 20px;
+}
+
+.content__left--down p {
+  margin-top: 90px;
+}
+
+.list--left {
+  float: left;
+  margin-top:25px;
+  text-decoration: underline;
+  color: #595959;
+}
+
+.list--right {
+  float: right;
+  margin-top: 25px;
+  text-decoration: underline;
+  color: #595959;
+}
+
+.list--left li {
+  list-style: url("image/pic_arrow.png");
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.list--right li {
+  list-style: url("image/pic_arrow.png");
+  margin-top: 10px;
+}
+
+.content__left--down--span {
+  color: #595959;
+}
+
+

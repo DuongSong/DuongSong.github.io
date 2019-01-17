@@ -1,0 +1,13 @@
+#container {
+	background: peachpuff;
+	width: 1580px;
+	height: 600px;
+	overflow: hidden;
+	background-image: url("image/autumn_leaves1.png"), url("image/autumn_leaves2.png");
+	background-repeat: no-repeat;
+	background-position: left top, right top;
+}
+
+.leaves {
+	position: relative;
+}
